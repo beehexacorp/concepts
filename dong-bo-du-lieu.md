@@ -2,7 +2,9 @@
 
 ## 1. Khái Niệm Đồng Bộ Dữ Liệu
 
-<code> Đồng bộ dữ liệu là tiến trình làm cho dữ liệu xuất hiện trên các hệ thống khác nhau ở cùng thời điểm. </code>
+```
+Đồng bộ dữ liệu là tiến trình làm cho dữ liệu xuất hiện trên các hệ thống khác nhau ở cùng thời điểm.
+```
 
 ### 1.1 Cụ thể hơn về việc đồng bộ dữ liệu giữa hệ thống A và hệ thống B.
 
