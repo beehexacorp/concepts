@@ -6,8 +6,8 @@
 
 ### 1.1 Cụ thể hơn về việc đồng bộ dữ liệu giữa hệ thống A và hệ thống B.
 
-- Khi một sự kiện __X__ xảy ra ở hệ thống __A__ , sẽ dẫn tới có một tập dữ liệu __D__ được thêm mới hoặc __thay đổi__ trên hệ thống __A__.
-- Tiến trình đồng bộ dữ liệu sẽ tạo ra một sự kiện __X1__ xảy ra trên hệ thống B với tập dữ liệu __D1__ được thêm mới hoặc __thay đổi__ trên __B__.
+- Khi một sự kiện __X__ xảy ra ở hệ thống __A__ , sẽ dẫn tới có một tập dữ liệu __D__ được thêm mới hoặc __THAY ĐỔI__ trên hệ thống __A__.
+- Tiến trình đồng bộ dữ liệu sẽ tạo ra một sự kiện __X1__ xảy ra trên hệ thống B với tập dữ liệu __D1__ được thêm mới hoặc __THAY ĐỔI__ trên __B__.
 - Sự kiện __X1__ nếu xảy ra ngay sau sự kiện __X__ thì được xem như là đồng bộ theo thời gian thực.
 - Tập dữ liệu __D__ và __D1__ có thể tương tự nhau nhưng **cũng có thể có khác biệt** tùy theo yêu cầu nghiệp vụ cụ thể.
 
